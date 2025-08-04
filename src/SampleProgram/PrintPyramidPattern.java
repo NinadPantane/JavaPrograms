@@ -1,7 +1,5 @@
 package SampleProgram;
 
-import java.util.concurrent.StructuredTaskScope.ShutdownOnSuccess;
-
 public class PrintPyramidPattern {
 
 	/*
