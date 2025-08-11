@@ -21,11 +21,11 @@ public class ReverseEachWordOfString {
 		for(int i=0;i<words.length;i++) 	// loop through each words
 		{
 		String word=words[i];
-		String nextString="";
+		String reverseWord="";
 		for(int j=0;j<word.length();j++) {		// loop through character of the word to reverse them
-			nextString=word.charAt(j)+nextString;
+			reverseWord=word.charAt(j)+reverseWord;
 		}
-		reverseString=reverseString+nextString+" "; // Add all Reversed Words in the Reverse Sting
+		reverseString=reverseString+reverseWord+" "; // Add all Reversed Words in the Reverse Sting
 		}
 		
 		System.out.println(reverseString);
